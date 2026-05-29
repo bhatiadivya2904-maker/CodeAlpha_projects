@@ -29,6 +29,15 @@ This repository is organized into distinct directories for each internship task:
   - Detailed Exploratory Data Analysis Jupyter Notebook (`notebooks/unemployment_analysis.ipynb`).
   - Policy insights and recommendations.
 
+### 🚗 [Task 3: Car Price Prediction with Machine Learning](./Task3_Car_Price_Prediction)
+* **Goal:** Develop a Machine Learning regression pipeline to predict used car resale values based on various physical and commercial characteristics.
+* **Accuracy Achieved:** **96.85% $R^2$ Score** (using a Gradient Boosting Regressor).
+* **Deliverables:**
+  - Automated used car dataset downloader (`src/download_data.py`) and training script (`src/train.py`).
+  - Command-line predictor (`src/predict.py`) for instant resale value predictions.
+  - Detailed Exploratory Data Analysis Jupyter Notebook (`notebooks/car_price_prediction_eda.ipynb`).
+  - Elegant, dark-mode **Streamlit Resale Value Calculator** (`app.py`) complete with live scatter price-mapping, uncertainty ranges, and horizontal driver importance plots.
+
 ---
 
 ## 🛠️ Getting Started & Local Setup
@@ -48,8 +57,8 @@ cd CodeAlpha_projects
 ### 3. Running the Dashboards
 To run any tasks, navigate to its folder, install dependencies and launch Streamlit:
 ```bash
-# Example for Task 2
-cd Task2_Unemployment_Analysis
+# Example for Task 3
+cd Task3_Car_Price_Prediction
 pip install -r requirements.txt
 streamlit run app.py
 ```
