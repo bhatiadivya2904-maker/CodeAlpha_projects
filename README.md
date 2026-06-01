@@ -38,6 +38,14 @@ This repository is organized into distinct directories for each internship task:
   - Detailed Exploratory Data Analysis Jupyter Notebook (`notebooks/car_price_prediction_eda.ipynb`).
   - Elegant, dark-mode **Streamlit Resale Value Calculator** (`app.py`) complete with live scatter price-mapping, uncertainty ranges, and horizontal driver importance plots.
 
+### 📈 [Task 4: Sales Prediction using Python](./Task4_Sales_Prediction)
+* **Goal:** Predict future product sales based on advertising spends across TV, Radio, and Newspaper channels, and deliver actionable marketing budget optimization.
+* **Accuracy Achieved:** **98.31% $R^2$ Score** (using a Gradient Boosting Regressor).
+* **Deliverables:**
+  - Robust training script (`src/train.py`), downloader (`src/download_data.py`), and CLI predictor (`src/predict.py`).
+  - Sleek, dark-mode **AI Sales Forecaster & Spend Optimizer Dashboard** (`app.py`) featuring real-time budget allocation recommendations and comparative performance plotting.
+  - Detailed Exploratory Data Analysis Jupyter Notebook (`notebooks/sales_prediction_eda.ipynb`).
+
 ---
 
 ## 🛠️ Getting Started & Local Setup
